@@ -33,7 +33,7 @@ QQ防撤回bot
 - `GroupMsg.go` : 群聊消息回调
 
 # 拓展
-- go语言对数据库的处理非常灵活，如果要适配其他版本数据库，重写`util/util.go`中的`AddRecord`与`QueryRecord`方法即可。
+- 如果要适配其他版本数据库，重写`util/util.go`中的`AddRecord`与`QueryRecord`方法即可。
 
 
 
